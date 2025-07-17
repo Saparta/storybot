@@ -1,3 +1,5 @@
+import sys
+print("sys.path:", sys.path)
 from moviepy.editor import TextClip, CompositeVideoClip, VideoFileClip
 from datetime import datetime
 

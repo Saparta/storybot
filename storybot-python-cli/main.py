@@ -3,7 +3,6 @@ import os
 from datetime import datetime
 from scrape import get_reddit_posts, save_posts
 from tts import text_to_speech
-from tts import text_to_speech
 from edit_video import combine_audio_video
 from generate_captions import add_static_caption
 
@@ -28,7 +27,7 @@ def run_storybot(subreddit: str, limit: int):
     print("✅ Speech generation complete.")
 
     # 3. Download background video (using placeholder URL)
- from download_clip import fetch_and_download_clip
+    from download_clip import fetch_and_download_clip
     print("🔍 Searching for background video...")
     video_filepath = fetch_and_download_clip("funny fails video comp 9:16")
     if not video_filepath:

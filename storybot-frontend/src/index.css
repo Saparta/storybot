@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;600&family=Khula:wght@400;700&family=Source+Code+Pro&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body bg-accent text-secondary;
+}

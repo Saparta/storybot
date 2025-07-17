@@ -13,6 +13,7 @@
     pkgs.nodePackages.nodemon
     pkgs.python313
     pkgs.python3Full
+    pkgs.python311Packages.pip
   ];
 
   # Sets environment variables in the workspace
