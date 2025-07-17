@@ -1,0 +1,9 @@
+express@^4.18.2
+cors
+dotenv
+snoowrap
+google-tts-api
+youtube-search-api
+node-fetch
+ytdl-core
+fluent-ffmpeg

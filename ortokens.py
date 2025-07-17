@@ -43,10 +43,10 @@ import os # Import os to read environment variables
 import praw # Make sure PRAW is installed (pip install praw)
 import sys 
 
-CLIENT_ID = "Snzx8kCcA0HolwBRc_uZ1w" # <--- REPLACE THIS
-CLIENT_SECRET = "dO4ldkWLKQA3E2RjFdymGiku13bnHg" # <--- REPLACE THIS
-AUTHORIZATION_CODE = "JMqRiKJOKzIYHAfuqU9RKHIC-FhLHg" # <--- REPLACE THIS - GET A FRESH ONE EACH TIME YOU TEST
-REDIRECT_URI = "http://localhost:8080" # <--- MAKE SURE THIS MATCHES YOUR REDDIT APP EXACTLY
+# CLIENT_ID = "Snzx8kCcA0HolwBRc_uZ1w" # <--- REPLACE THIS
+# CLIENT_SECRET = "dO4ldkWLKQA3E2RjFdymGiku13bnHg" # <--- REPLACE THIS
+# AUTHORIZATION_CODE = "VJBhvTqW_pScrmQ9-qr00faVw8cptA" # <--- REPLACE THIS - GET A FRESH ONE EACH TIME YOU TEST
+# REDIRECT_URI = "http://localhost:8080" # <--- MAKE SURE THIS MATCHES YOUR REDDIT APP EXACTLY
 
 def main():
     """Provide the program's entry point when directly executed."""

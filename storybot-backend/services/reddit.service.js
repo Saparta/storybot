@@ -1,5 +1,8 @@
 import snoowrap from 'snoowrap';
+import dotenv from 'dotenv';
 import { cleanText } from '../utils/cleaner.js';
+
+dotenv.config();
 
 const reddit = new snoowrap({
   userAgent: process.env.REDDIT_USER_AGENT,
