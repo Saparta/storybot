@@ -6,6 +6,7 @@ export const fetchPosts = async (req, res) => {
     const posts = await getRedditPosts(subreddit, limit);
     res.json(posts);
   } catch (err) {
+    console.error('Error in fetchPosts:', err); // <-- Add this line
     res.status(500).json({ error: err.message });
   }
 };
