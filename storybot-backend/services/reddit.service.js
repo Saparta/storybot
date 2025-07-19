@@ -21,9 +21,9 @@ const reddit = new snoowrap({
 
 export const getRedditPosts = async (subreddit, limit = 1) => {
   try {
-    const submissions = await reddit
-      .getSubreddit(subreddit)
-      .getTop({ time: 'day', limit: Number(limit) }); // <-- ensures number
+    const submissions = await reddit.getSubreddit(subreddit).getTop({
+      time: 'day',
+      limit: Number(limit),}); // <-- ensures number
 
     return submissions
       .filter(post => post.selftext && post.selftext.length > 100)
