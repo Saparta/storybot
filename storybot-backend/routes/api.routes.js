@@ -1,5 +1,5 @@
 import express from 'express';
-import { fetchPosts, checkSubreddit, suggestSubreddits } from '../controllers/reddit.controller.js';
+import { fetchPosts, checkSubreddit, suggestSubreddits, fetchRandomStory } from '../controllers/reddit.controller.js'; // Import the new controller function
 import { textToSpeech } from '../controllers/tts.controller.js';
 
 import { searchYouTube } from '../controllers/youtube.controller.js';
@@ -14,6 +14,7 @@ router.post('/search-video', searchYouTube);
 router.post('/compose-video', composeVideo);
 router.get('/check-subreddit', checkSubreddit);
 router.get('/suggest-subreddits', suggestSubreddits);
+router.get('/fetch-random-story', fetchRandomStory); // Add the new route
 
 export default router;
 router.get('/get-video/:filename', getVideo);
