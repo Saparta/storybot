@@ -32,14 +32,14 @@ function App() {
         setStory(null);
         setStatus('❌ Could not fetch a random story.');
       }
-    } catch (err) {
+    } catch (err) { // Corrected catch block placement
       setStatus('❌ Failed to fetch random story.');
       setStory(null);
       console.error('Error fetching random story:', err);
     } finally {
       setLoading(false);
     }
-  };
+  }; // Corrected closing curly brace
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
@@ -67,7 +67,8 @@ function App() {
       {story && (
         <div className="w-full max-w-lg mt-6 bg-white rounded-lg shadow-md p-6 animate-fade-in">
           <h2 className="text-xl font-bold mb-2 text-gray-800">{story.title}</h2>
-          <p className="text-gray-700 mb-4">{story.body}</p>
+          {/* Display full body text */}
+          <p className="text-gray-700 mb-4" style={{ whiteSpace: 'pre-wrap' }}>{story.body}</p>
           <div className="flex items-center gap-4">
             <a
               href={story.url}
