@@ -1,4 +1,4 @@
-export const cleanText = (text, maxLength = 1000) => {
+export const cleanText = (text, maxLength = 2000) => {
   return text
     .replace(/[*_>[]()`#+-]/g, '')
     .replace(/http\S+/g, '')

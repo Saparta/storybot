@@ -23,15 +23,18 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #3a86ff;
 }
-
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+body {
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
 h1 {
@@ -40,18 +43,31 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  background-color: #ee4949;
+  color: white;
   padding: 0.6em 1.2em;
+  border-radius: 6px;
+  border: none;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #dadada;
+}
+
+/* Existing button styles (can be merged or overridden by new styles) */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #515379;
 }
 button:focus,
 button:focus-visible {
@@ -70,3 +86,33 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* New styles for the story reading page */
+.story-container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.story-text {
+  font-family: 'Merriweather', serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.story-text p {
+  margin-bottom: 1.2rem;
+}
+
+.story-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.story-meta {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
