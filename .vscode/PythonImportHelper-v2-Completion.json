@@ -1,0 +1,451 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "VideosSearch",
+        "importPath": "youtubesearchpython",
+        "description": "youtubesearchpython",
+        "isExtraImport": true,
+        "detail": "youtubesearchpython",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "VideoFileClip",
+        "importPath": "moviepy.editor",
+        "description": "moviepy.editor",
+        "isExtraImport": true,
+        "detail": "moviepy.editor",
+        "documentation": {}
+    },
+    {
+        "label": "AudioFileClip",
+        "importPath": "moviepy.editor",
+        "description": "moviepy.editor",
+        "isExtraImport": true,
+        "detail": "moviepy.editor",
+        "documentation": {}
+    },
+    {
+        "label": "concatenate_videoclips",
+        "importPath": "moviepy.editor",
+        "description": "moviepy.editor",
+        "isExtraImport": true,
+        "detail": "moviepy.editor",
+        "documentation": {}
+    },
+    {
+        "label": "TextClip",
+        "importPath": "moviepy.editor",
+        "description": "moviepy.editor",
+        "isExtraImport": true,
+        "detail": "moviepy.editor",
+        "documentation": {}
+    },
+    {
+        "label": "CompositeVideoClip",
+        "importPath": "moviepy.editor",
+        "description": "moviepy.editor",
+        "isExtraImport": true,
+        "detail": "moviepy.editor",
+        "documentation": {}
+    },
+    {
+        "label": "VideoFileClip",
+        "importPath": "moviepy.editor",
+        "description": "moviepy.editor",
+        "isExtraImport": true,
+        "detail": "moviepy.editor",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "get_reddit_posts",
+        "importPath": "scrape",
+        "description": "scrape",
+        "isExtraImport": true,
+        "detail": "scrape",
+        "documentation": {}
+    },
+    {
+        "label": "save_posts",
+        "importPath": "scrape",
+        "description": "scrape",
+        "isExtraImport": true,
+        "detail": "scrape",
+        "documentation": {}
+    },
+    {
+        "label": "text_to_speech",
+        "importPath": "tts",
+        "description": "tts",
+        "isExtraImport": true,
+        "detail": "tts",
+        "documentation": {}
+    },
+    {
+        "label": "combine_audio_video",
+        "importPath": "edit_video",
+        "description": "edit_video",
+        "isExtraImport": true,
+        "detail": "edit_video",
+        "documentation": {}
+    },
+    {
+        "label": "add_static_caption",
+        "importPath": "generate_captions",
+        "description": "generate_captions",
+        "isExtraImport": true,
+        "detail": "generate_captions",
+        "documentation": {}
+    },
+    {
+        "label": "praw",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "praw",
+        "description": "praw",
+        "detail": "praw",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "gTTS",
+        "importPath": "gtts",
+        "description": "gtts",
+        "isExtraImport": true,
+        "detail": "gtts",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "kind": 2,
+        "importPath": "storybot-python-cli.utils.cleaner",
+        "description": "storybot-python-cli.utils.cleaner",
+        "peekOfCode": "def clean_text(text: str, max_length=300) -> str:\n    text = re.sub(r'[*[]()_`#>+]', '', text)  # Remove markdown\n    text = re.sub(r'httpS+', '', text)  # Remove links\n    text = re.sub(r'\\n+', ' ', text)  # Flatten newlines\n    return text.strip()[:max_length] + (\"...\" if len(text) > max_length else \"\")\ndef format_caption(title: str, body: str) -> str:\n    return f\"{title.strip().upper()}\\n\\n{clean_text(body)}\"",
+        "detail": "storybot-python-cli.utils.cleaner",
+        "documentation": {}
+    },
+    {
+        "label": "format_caption",
+        "kind": 2,
+        "importPath": "storybot-python-cli.utils.cleaner",
+        "description": "storybot-python-cli.utils.cleaner",
+        "peekOfCode": "def format_caption(title: str, body: str) -> str:\n    return f\"{title.strip().upper()}\\n\\n{clean_text(body)}\"",
+        "detail": "storybot-python-cli.utils.cleaner",
+        "documentation": {}
+    },
+    {
+        "label": "search_youtube_video",
+        "kind": 2,
+        "importPath": "storybot-python-cli.download_clip",
+        "description": "storybot-python-cli.download_clip",
+        "peekOfCode": "def search_youtube_video(query=\"funny fails video comp 9:16\") -> str:\n    try:\n        videos = VideosSearch(query, limit=1).result().get(\"result\", [])\n        return videos[0][\"link\"] if videos else None\n    except Exception:\n        return None\ndef download_youtube_video(url: str, out_folder: str = \"clips/\") -> str:\n    try:\n        yt = YouTube(url)\n        stream = yt.streams.filter(file_extension=\"mp4\", res=\"720p\", progressive=True).first()",
+        "detail": "storybot-python-cli.download_clip",
+        "documentation": {}
+    },
+    {
+        "label": "download_youtube_video",
+        "kind": 2,
+        "importPath": "storybot-python-cli.download_clip",
+        "description": "storybot-python-cli.download_clip",
+        "peekOfCode": "def download_youtube_video(url: str, out_folder: str = \"clips/\") -> str:\n    try:\n        yt = YouTube(url)\n        stream = yt.streams.filter(file_extension=\"mp4\", res=\"720p\", progressive=True).first()\n        if not stream:\n            stream = yt.streams.filter(file_extension=\"mp4\", progressive=True).order_by(\"resolution\").desc().first()\n        if not stream:\n            raise Exception(\"❌ No stream found.\")\n        filename = f\"{yt.title[:50].replace(' ', '_')}_{datetime.now().strftime('%Y%m%d%H%M%S')}.mp4\"\n        filepath = os.path.join(out_folder, filename)",
+        "detail": "storybot-python-cli.download_clip",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_and_download_clip",
+        "kind": 2,
+        "importPath": "storybot-python-cli.download_clip",
+        "description": "storybot-python-cli.download_clip",
+        "peekOfCode": "def fetch_and_download_clip(query=\"funny fails video comp 9:16\") -> str:\n    url = search_youtube_video(query)\n    if not url:\n        url = FALLBACK_URL # Use fallback if search fails\n    return download_youtube_video(url)",
+        "detail": "storybot-python-cli.download_clip",
+        "documentation": {}
+    },
+    {
+        "label": "FALLBACK_URL",
+        "kind": 5,
+        "importPath": "storybot-python-cli.download_clip",
+        "description": "storybot-python-cli.download_clip",
+        "peekOfCode": "FALLBACK_URL = \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" # trusted background fallback\ndef search_youtube_video(query=\"funny fails video comp 9:16\") -> str:\n    try:\n        videos = VideosSearch(query, limit=1).result().get(\"result\", [])\n        return videos[0][\"link\"] if videos else None\n    except Exception:\n        return None\ndef download_youtube_video(url: str, out_folder: str = \"clips/\") -> str:\n    try:\n        yt = YouTube(url)",
+        "detail": "storybot-python-cli.download_clip",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_clip",
+        "kind": 2,
+        "importPath": "storybot-python-cli.edit_video",
+        "description": "storybot-python-cli.edit_video",
+        "peekOfCode": "def get_random_clip(folder_path=\"/workspace/storybot/clips/\") -> str:\n    clips = [f for f in os.listdir(folder_path) if f.endswith(\".mp4\")]\n    if not clips:\n        raise FileNotFoundError(\"No video clips found in '/workspace/storybot/clips/' folder.\")\n    return os.path.join(folder_path, random.choice(clips))\ndef combine_audio_video(audio_path: str, video_path: str, out_path: str = None):\n    if out_path is None:\n        ts = datetime.now().strftime(\"%Y%m%d%H%M%S\")\n        out_path = f\"/workspace/storybot/videos/story_{ts}.mp4\"\n    video = VideoFileClip(video_path)",
+        "detail": "storybot-python-cli.edit_video",
+        "documentation": {}
+    },
+    {
+        "label": "combine_audio_video",
+        "kind": 2,
+        "importPath": "storybot-python-cli.edit_video",
+        "description": "storybot-python-cli.edit_video",
+        "peekOfCode": "def combine_audio_video(audio_path: str, video_path: str, out_path: str = None):\n    if out_path is None:\n        ts = datetime.now().strftime(\"%Y%m%d%H%M%S\")\n        out_path = f\"/workspace/storybot/videos/story_{ts}.mp4\"\n    video = VideoFileClip(video_path)\n    audio = AudioFileClip(audio_path)\n    duration = audio.duration\n    if video.duration < duration:\n        loop_count = int(duration // video.duration) + 1\n        clips = [video] * loop_count",
+        "detail": "storybot-python-cli.edit_video",
+        "documentation": {}
+    },
+    {
+        "label": "add_static_caption",
+        "kind": 2,
+        "importPath": "storybot-python-cli.generate_captions",
+        "description": "storybot-python-cli.generate_captions",
+        "peekOfCode": "def add_static_caption(video_path: str, caption_text: str, out_path: str = None):\n    ts = datetime.now().strftime(\"%Y%m%d%H%M%S\")\n    out_path = out_path or f\"/workspace/storybot/videos/story_{ts}_captioned.mp4\"\n    video = VideoFileClip(video_path)\n    txt_clip = TextClip(caption_text, fontsize=32, color='white', font='Arial-Bold',\n                        size=(video.w * 0.9, None), method='caption')\n    txt_clip = txt_clip.set_duration(video.duration).set_position((\"center\", \"bottom\")).margin(bottom=30)\n    final = CompositeVideoClip([video, txt_clip])\n    final.write_videofile(out_path, codec=\"libx264\", audio_codec=\"aac\")\n    print(f\"🔤 Captioned video saved to {out_path}\")",
+        "detail": "storybot-python-cli.generate_captions",
+        "documentation": {}
+    },
+    {
+        "label": "run_storybot",
+        "kind": 2,
+        "importPath": "storybot-python-cli.main",
+        "description": "storybot-python-cli.main",
+        "peekOfCode": "def run_storybot(subreddit: str, limit: int):\n    print(f\"📥 Fetching {limit} post(s) from r/{subreddit}...\")\n    posts = get_reddit_posts(subreddit=subreddit, limit=limit)\n    if not posts:\n        print(\"❌ No valid posts found.\")\n        return\n    save_posts(posts)\n    print(\"✅ Posts saved. Continue pipeline (TTS, video, etc).\")\n    # Process the first post\n    post = posts[0]",
+        "detail": "storybot-python-cli.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_reddit_posts",
+        "kind": 2,
+        "importPath": "storybot-python-cli.scrape",
+        "description": "storybot-python-cli.scrape",
+        "peekOfCode": "def get_reddit_posts(subreddit: str, limit: int = 1) -> list[dict]:\n    posts = []\n    for post in reddit.subreddit(subreddit).top(limit=limit, time_filter=\"day\"):\n        if post.selftext and len(post.selftext) > 100:\n            posts.append({\n                \"title\": post.title,\n                \"body\": post.selftext.strip(),\n                \"url\": post.url\n            })\n    return posts",
+        "detail": "storybot-python-cli.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "save_posts",
+        "kind": 2,
+        "importPath": "storybot-python-cli.scrape",
+        "description": "storybot-python-cli.scrape",
+        "peekOfCode": "def save_posts(posts, folder=\"stories/\"):\n    ts = datetime.now().strftime(\"%Y%m%d%H%M%S\")\n    with open(f\"{folder}post_{ts}.json\", \"w\", encoding=\"utf-8\") as f:\n        json.dump(posts, f, indent=2, ensure_ascii=False)\nif __name__ == \"__main__\":\n    posts = get_reddit_posts(\"pettyrevenge\", limit=1)\n    save_posts(posts)\n    print(f\"Saved {len(posts)} story(ies).\")",
+        "detail": "storybot-python-cli.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "reddit",
+        "kind": 5,
+        "importPath": "storybot-python-cli.scrape",
+        "description": "storybot-python-cli.scrape",
+        "peekOfCode": "reddit = praw.Reddit(\n    client_id=\"YOUR_CLIENT_ID\",\n    client_secret=\"YOUR_CLIENT_SECRET\",\n    user_agent=\"storybot by /u/yourusername\"\n)\ndef get_reddit_posts(subreddit: str, limit: int = 1) -> list[dict]:\n    posts = []\n    for post in reddit.subreddit(subreddit).top(limit=limit, time_filter=\"day\"):\n        if post.selftext and len(post.selftext) > 100:\n            posts.append({",
+        "detail": "storybot-python-cli.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "text_to_speech",
+        "kind": 2,
+        "importPath": "storybot-python-cli.tts",
+        "description": "storybot-python-cli.tts",
+        "peekOfCode": "def text_to_speech(text: str, out_path: str):\n    \"\"\"\n    Converts text to speech using gTTS and saves it to a file.\n    \"\"\"\n    tts = gTTS(text=text, lang='en')\n    tts.save(out_path)",
+        "detail": "storybot-python-cli.tts",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ortokens",
+        "description": "ortokens",
+        "peekOfCode": "def main():\n    \"\"\"Provide the program's entry point when directly executed.\"\"\"\n    # --- 1. Use constants for client ID and secret ---\n    client_id = CLIENT_ID\n    client_secret = CLIENT_SECRET\n    if not client_id or not client_secret:\n        print(\"Error: CLIENT_ID and CLIENT_SECRET constants must be set.\")\n        return 1\n    # --- 2. Use constant for redirect URI ---\n    redirect_uri = REDIRECT_URI",
+        "detail": "ortokens",
+        "documentation": {}
+    },
+    {
+        "label": "CLIENT_ID",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "CLIENT_ID = \"Snzx8kCcA0HolwBRc_uZ1w\" # <--- REPLACE THIS\nCLIENT_SECRET = \"dO4ldkWLKQA3E2RjFdymGiku13bnHg\" # <--- REPLACE THIS\nAUTHORIZATION_CODE = \"l5uA7N242a0tbK3WGfFFiNM3RK0Cog#_\" # <--- REPLACE THIS - GET A FRESH ONE EACH TIME YOU TEST\nREDIRECT_URI = \"http://localhost:8080\" # <--- MAKE SURE THIS MATCHES YOUR REDDIT APP EXACTLY\n# --- Define the Reddit token endpoint ---\nTOKEN_URL = \"https://www.reddit.com/api/v1/access_token\"\n# --- Prepare the Basic Authentication Header ---\nclient_auth_string = f\"{CLIENT_ID}:{CLIENT_SECRET}\"\nencoded_client_auth = base64.b64encode(client_auth_string.encode(\"utf-8\")).decode(\"utf-8\")\nheaders = {",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "CLIENT_SECRET",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "CLIENT_SECRET = \"dO4ldkWLKQA3E2RjFdymGiku13bnHg\" # <--- REPLACE THIS\nAUTHORIZATION_CODE = \"l5uA7N242a0tbK3WGfFFiNM3RK0Cog#_\" # <--- REPLACE THIS - GET A FRESH ONE EACH TIME YOU TEST\nREDIRECT_URI = \"http://localhost:8080\" # <--- MAKE SURE THIS MATCHES YOUR REDDIT APP EXACTLY\n# --- Define the Reddit token endpoint ---\nTOKEN_URL = \"https://www.reddit.com/api/v1/access_token\"\n# --- Prepare the Basic Authentication Header ---\nclient_auth_string = f\"{CLIENT_ID}:{CLIENT_SECRET}\"\nencoded_client_auth = base64.b64encode(client_auth_string.encode(\"utf-8\")).decode(\"utf-8\")\nheaders = {\n    \"User-Agent\": \"MyRedditTokenFetcher/1.0 by u/Humble-Independent22\", # Double-check your Reddit username here",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHORIZATION_CODE",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "AUTHORIZATION_CODE = \"l5uA7N242a0tbK3WGfFFiNM3RK0Cog#_\" # <--- REPLACE THIS - GET A FRESH ONE EACH TIME YOU TEST\nREDIRECT_URI = \"http://localhost:8080\" # <--- MAKE SURE THIS MATCHES YOUR REDDIT APP EXACTLY\n# --- Define the Reddit token endpoint ---\nTOKEN_URL = \"https://www.reddit.com/api/v1/access_token\"\n# --- Prepare the Basic Authentication Header ---\nclient_auth_string = f\"{CLIENT_ID}:{CLIENT_SECRET}\"\nencoded_client_auth = base64.b64encode(client_auth_string.encode(\"utf-8\")).decode(\"utf-8\")\nheaders = {\n    \"User-Agent\": \"MyRedditTokenFetcher/1.0 by u/Humble-Independent22\", # Double-check your Reddit username here\n    \"Authorization\": f\"Basic {encoded_client_auth}\",",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "REDIRECT_URI",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "REDIRECT_URI = \"http://localhost:8080\" # <--- MAKE SURE THIS MATCHES YOUR REDDIT APP EXACTLY\n# --- Define the Reddit token endpoint ---\nTOKEN_URL = \"https://www.reddit.com/api/v1/access_token\"\n# --- Prepare the Basic Authentication Header ---\nclient_auth_string = f\"{CLIENT_ID}:{CLIENT_SECRET}\"\nencoded_client_auth = base64.b64encode(client_auth_string.encode(\"utf-8\")).decode(\"utf-8\")\nheaders = {\n    \"User-Agent\": \"MyRedditTokenFetcher/1.0 by u/Humble-Independent22\", # Double-check your Reddit username here\n    \"Authorization\": f\"Basic {encoded_client_auth}\",\n    \"Content-Type\": \"application/x-www-form-urlencoded\" # Explicitly setting this can sometimes help",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_URL",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "TOKEN_URL = \"https://www.reddit.com/api/v1/access_token\"\n# --- Prepare the Basic Authentication Header ---\nclient_auth_string = f\"{CLIENT_ID}:{CLIENT_SECRET}\"\nencoded_client_auth = base64.b64encode(client_auth_string.encode(\"utf-8\")).decode(\"utf-8\")\nheaders = {\n    \"User-Agent\": \"MyRedditTokenFetcher/1.0 by u/Humble-Independent22\", # Double-check your Reddit username here\n    \"Authorization\": f\"Basic {encoded_client_auth}\",\n    \"Content-Type\": \"application/x-www-form-urlencoded\" # Explicitly setting this can sometimes help\n}\n# --- Prepare the POST request data (form-urlencoded) ---",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "client_auth_string",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "client_auth_string = f\"{CLIENT_ID}:{CLIENT_SECRET}\"\nencoded_client_auth = base64.b64encode(client_auth_string.encode(\"utf-8\")).decode(\"utf-8\")\nheaders = {\n    \"User-Agent\": \"MyRedditTokenFetcher/1.0 by u/Humble-Independent22\", # Double-check your Reddit username here\n    \"Authorization\": f\"Basic {encoded_client_auth}\",\n    \"Content-Type\": \"application/x-www-form-urlencoded\" # Explicitly setting this can sometimes help\n}\n# --- Prepare the POST request data (form-urlencoded) ---\ndata = {\n    \"grant_type\": \"authorization_code\",",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "encoded_client_auth",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "encoded_client_auth = base64.b64encode(client_auth_string.encode(\"utf-8\")).decode(\"utf-8\")\nheaders = {\n    \"User-Agent\": \"MyRedditTokenFetcher/1.0 by u/Humble-Independent22\", # Double-check your Reddit username here\n    \"Authorization\": f\"Basic {encoded_client_auth}\",\n    \"Content-Type\": \"application/x-www-form-urlencoded\" # Explicitly setting this can sometimes help\n}\n# --- Prepare the POST request data (form-urlencoded) ---\ndata = {\n    \"grant_type\": \"authorization_code\",\n    \"code\": AUTHORIZATION_CODE,",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "headers = {\n    \"User-Agent\": \"MyRedditTokenFetcher/1.0 by u/Humble-Independent22\", # Double-check your Reddit username here\n    \"Authorization\": f\"Basic {encoded_client_auth}\",\n    \"Content-Type\": \"application/x-www-form-urlencoded\" # Explicitly setting this can sometimes help\n}\n# --- Prepare the POST request data (form-urlencoded) ---\ndata = {\n    \"grant_type\": \"authorization_code\",\n    \"code\": AUTHORIZATION_CODE,\n    \"redirect_uri\": REDIRECT_URI",
+        "detail": "reddit_",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "reddit_",
+        "description": "reddit_",
+        "peekOfCode": "data = {\n    \"grant_type\": \"authorization_code\",\n    \"code\": AUTHORIZATION_CODE,\n    \"redirect_uri\": REDIRECT_URI\n}\n# --- DEBUGGING OUTPUT ---\nprint(\"--- DEBUGGING REQUEST DETAILS ---\")\nprint(f\"Client ID: {CLIENT_ID}\")\nprint(f\"Client Secret (Encoded): {encoded_client_auth}\") # Be cautious about showing full secret\nprint(f\"Authorization Code (First 10 chars): {AUTHORIZATION_CODE[:10]}...\")",
+        "detail": "reddit_",
+        "documentation": {}
+    }
+]
