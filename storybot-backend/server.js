@@ -11,6 +11,6 @@ import { fileURLToPath } from 'url'; // If using ES modules
         
 
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`🚀 Storybot backend running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Storybot backend running on http://0.0.0.0:${PORT}`);
 });
