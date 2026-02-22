@@ -19,6 +19,13 @@ const reddit = new snoowrap({
   refreshToken: process.env.REDDIT_REFRESH_TOKEN
 });
 
+reddit.getMe()
+  .then(user => console.log('Authenticated Reddit user:', user.name))
+  .catch(err => {
+    console.error('🔥 Snoowrap failed auth:', err.statusCode, err.message);
+  });
+
+
 export const getRedditPosts = async (subreddit, limit = 1) => {
   try {
     const submissions = await reddit.getSubreddit(subreddit).getTop({
