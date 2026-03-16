@@ -77,6 +77,27 @@ storybot/
 ### Setup
 
 1. Clone the repository:
+
+### 🖥️ Dedicated website launcher + shortcut
+
+You can now run Storybot like a desktop app launcher (similar to an `.exe`/`.dmg` experience):
+
+1. Install dependencies:
+   ```bash
+   npm run setup
+   ```
+2. Start both backend + frontend and auto-open the website:
+   ```bash
+   npm run desktop
+   ```
+
+Shortcut files are included in `shortcuts/`:
+- `start-storybot.sh` (Linux/macOS terminal launcher)
+- `start-storybot.bat` (Windows launcher)
+- `Storybot.desktop` (Linux desktop shortcut)
+
+This launcher starts both services and opens `http://127.0.0.1:5173`.
+
    ```bash
    git clone https://github.com/your-username/storybot.git
    cd storybot

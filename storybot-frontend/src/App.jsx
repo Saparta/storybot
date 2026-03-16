@@ -1,5 +1,4 @@
 import { useState } from "react";
-import StoryPreview from "./components/StoryPreview.jsx";
 import GenerateButton from "./components/GenerateButton.jsx";
 import VideoPlayer from "./components/VideoPlayer.jsx";
 import StatusPanel from "./components/StatusPanel.jsx";
@@ -11,14 +10,12 @@ function App() {
   const [videoURL, setVideoURL] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // Fetch a random story from the backend
   const fetchRandomStory = async () => {
     setLoading(true);
     setStory(null);
     setStatus("🎲 Fetching random story...");
     setVideoURL("");
 
-    // Use explicit URL for fetch to potentially diagnose proxy issue
     const baseUrl = window.location.origin;
     const apiUrl = `${baseUrl}/api/fetch-random-story`;
 
@@ -33,90 +30,80 @@ function App() {
         setStatus("❌ Could not fetch a random story.");
       }
     } catch (err) {
-      // Corrected catch block placement
       setStatus("❌ Failed to fetch random story.");
       setStory(null);
       console.error("Error fetching random story:", err);
     } finally {
       setLoading(false);
     }
-  }; // Corrected closing curly brace
+  };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-      <h1 className="text-4xl font-sans font-bold text-primary mb-8">
-        📖 Storybot
-      </h1>
-      <div className="w-full max-w-lg flex flex-col items-center mb-6 m-4">
-        <button
-          onClick={fetchRandomStory}
-          className={`bg-blue-500 pt-10 m-4 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-600 transition
-            ${loading ? "opacity-70 cursor-not-allowed" : ""}`}
-          disabled={loading}
-        >
-          {loading ? (
-            <svg
-              className="animate-spin -ml-1 mr-3 h-5 w-5 text-white inline"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <circle
-                className="opacity-25"
-                cx="12"
-                cy="12"
-                r="10"
-                stroke="currentColor"
-                strokeWidth="4"
-              ></circle>
-              <path
-                className="opacity-75"
-                fill="currentColor"
-                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-              ></path>
-            </svg>
-          ) : (
-            "🎲 Fetch Random Reddit Story"
-          )}
-        </button>
-      </div>
+    <div className="app-shell">
+      <video
+        className="background-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster="https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg"
+      >
+        <source
+          src="https://videos.pexels.com/video-files/3129957/3129957-hd_1920_1080_30fps.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="background-overlay" />
 
-      <StatusPanel status={status} />
+      <main className="content-layer flex flex-col items-center min-h-screen p-4">
+        <h1 className="text-4xl font-sans font-bold text-white mb-8 drop-shadow-lg">
+          📖 Storybot Studio
+        </h1>
 
-      {story && (
-        <div className="w-full max-w-lg mt-6 bg-white rounded-lg shadow-md p-6 animate-fade-in">
-          <h2 className="text-xl font-bold mb-2 text-gray-800">
-            {story.title}
-          </h2>
-          {/* Display full body text */}
-          <p className="text-gray-700 mb-4" style={{ whiteSpace: "pre-wrap" }}>
-            {story.body}
+        <div className="glass-card w-full max-w-xl flex flex-col items-center mb-6 p-6">
+          <p className="text-sm text-slate-100 mb-4 text-center">
+            One-click Reddit story video generator with a gameplay-style background.
           </p>
-          <div className="flex items-center gap-4">
-            <a
-              href={story.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 underline font-mono text-sm"
-            >
-              Source
-            </a>
-            {/* Display subreddit name if available */}
-            {story.subreddit && (
-              <span className="text-gray-500 font-mono text-sm">
-                r/{story.subreddit}
-              </span>
-            )}
-          </div>
+          <button
+            onClick={fetchRandomStory}
+            className={`bg-blue-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-600 transition ${
+              loading ? "opacity-70 cursor-not-allowed" : ""
+            }`}
+            disabled={loading}
+          >
+            {loading ? "Loading story..." : "🎲 Fetch Random Reddit Story"}
+          </button>
         </div>
-      )}
 
-      <GenerateButton
-        story={story}
-        setStatus={setStatus}
-        setVideoURL={setVideoURL}
-      />
-      <VideoPlayer videoURL={videoURL} />
+        <div className="w-full max-w-xl">
+          <StatusPanel status={status} />
+        </div>
+
+        {story && (
+          <div className="glass-card w-full max-w-xl mt-6 p-6 animate-fade-in text-left">
+            <h2 className="text-xl font-bold mb-2 text-white">{story.title}</h2>
+            <p className="text-slate-100 mb-4" style={{ whiteSpace: "pre-wrap" }}>
+              {story.body}
+            </p>
+            <div className="flex items-center gap-4">
+              <a
+                href={story.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-200 underline font-mono text-sm"
+              >
+                Source
+              </a>
+              {story.subreddit && (
+                <span className="text-slate-200 font-mono text-sm">r/{story.subreddit}</span>
+              )}
+            </div>
+          </div>
+        )}
+
+        <GenerateButton story={story} setStatus={setStatus} setVideoURL={setVideoURL} />
+        <VideoPlayer videoURL={videoURL} />
+      </main>
     </div>
   );
 }

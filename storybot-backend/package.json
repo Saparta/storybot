@@ -1,0 +1,22 @@
+{
+  "name": "storybot-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "smoke": "node tests/smoke-endpoints.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "google-tts-api": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "snoowrap": "^1.23.0",
+    "youtube-search-api": "^1.2.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
