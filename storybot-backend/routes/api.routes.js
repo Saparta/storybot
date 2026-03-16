@@ -27,5 +27,6 @@ router.get('/fetch-youtube-video', async (req, res) => {
   }
 });
 
-export default router;
 router.get('/get-video/:filename', getVideo);
+
+export default router;
