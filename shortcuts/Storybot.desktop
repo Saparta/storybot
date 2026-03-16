@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Storybot Studio
+Comment=Launch Storybot website and video pipeline services
+Exec=bash -lc 'cd /workspace/storybot && ./shortcuts/start-storybot.sh'
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=AudioVideo;Video;
